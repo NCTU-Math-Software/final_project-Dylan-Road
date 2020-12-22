@@ -304,7 +304,7 @@ for ii=1:n-1
     end
 end
 image(B)
-map=[0 0 0;1 1 1];
+map=[1 1 1;0 0 0];
 colormap(map)
 length(prime)
 toc
